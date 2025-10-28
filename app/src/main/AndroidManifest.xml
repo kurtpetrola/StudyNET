@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.studynet">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="StudyNet"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudyNET"
+        tools:targetApi="31">
+        <activity
+            android:name=".Quizzes5"
+            android:exported="false" />
+        <activity
+            android:name=".Quizzes4"
+            android:exported="false" />
+        <activity
+            android:name=".Quizzes3"
+            android:exported="false" />
+        <activity
+            android:name=".Quizzes2"
+            android:exported="false" />
+        <activity
+            android:name=".Quizzes1"
+            android:exported="false" />
+        <activity
+            android:name=".Sessions5"
+            android:exported="false" />
+        <activity
+            android:name=".Sessions4"
+            android:exported="false" />
+        <activity
+            android:name=".Sessions3"
+            android:exported="false" />
+        <activity
+            android:name=".Sessions2"
+            android:exported="false" />
+        <activity
+            android:name=".Sessions1"
+            android:exported="false" />
+        <activity
+            android:name=".Quizzes"
+            android:exported="false"
+            android:label="QUIZZES" />
+        <activity
+            android:name=".Sessions"
+            android:exported="false"
+            android:label="SESSIONS" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="HOME"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
