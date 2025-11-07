@@ -35,6 +35,7 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
+        // *** FIX: Revert to launching Intro Activities as requested. ***
         Button btnModules = view.findViewById(R.id.btn_modules);
         btnModules.setOnClickListener(v -> {
             Intent intent = new Intent(getActivity(), ModulesIntroActivity.class);
